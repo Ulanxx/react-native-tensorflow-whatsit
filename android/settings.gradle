@@ -1,0 +1,13 @@
+rootProject.name = 'ThisisA'
+include ':react-native-image-picker'
+project(':react-native-image-picker').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-image-picker/android')
+include ':tflite-react-native'
+project(':tflite-react-native').projectDir = new File(rootProject.projectDir, '../node_modules/tflite-react-native/android')
+include ':react-native-tensorflow'
+project(':react-native-tensorflow').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-tensorflow/android')
+include ':react-native-view-shot'
+project(':react-native-view-shot').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-view-shot/android')
+include ':react-native-camera'
+project(':react-native-camera').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-camera/android')
+
+include ':app'
