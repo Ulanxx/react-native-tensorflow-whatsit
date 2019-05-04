@@ -29,7 +29,7 @@
 		CD55A11713AD46588B82DC9D /* libRNViewShot.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1E0A7A243D84489BAC7784C /* libRNViewShot.a */; };
 		D0A796DCF23742728F1B4E5B /* libRNTensorflow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 569D207322594B618BF84927 /* libRNTensorflow.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
-		FADAA7F1226C89660071DA5A /* models in Resources */ = {isa = PBXBuildFile; fileRef = FADAA7F0226C89660071DA5A /* models */; };
+		FAF217812276F5BB00A49F19 /* models in Resources */ = {isa = PBXBuildFile; fileRef = FAF217802276F5BB00A49F19 /* models */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -359,7 +359,7 @@
 		DD18E98772CCB5BAF3672939 /* Pods-ThisisA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThisisA.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThisisA/Pods-ThisisA.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		FADAA7F0226C89660071DA5A /* models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = models; sourceTree = "<group>"; };
+		FAF217802276F5BB00A49F19 /* models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = models; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -580,7 +580,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				FADAA7F0226C89660071DA5A /* models */,
+				FAF217802276F5BB00A49F19 /* models */,
 				13B07FAE1A68108700A75B9A /* ThisisA */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* ThisisATests */,
@@ -1072,7 +1072,7 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				FADAA7F1226C89660071DA5A /* models in Resources */,
+				FAF217812276F5BB00A49F19 /* models in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
