@@ -17,4 +17,5 @@
   
   5. xcode或as直接跑
   6. 若修改model及label，则去android/app/src/main/assets/ 和 ios/models里修改
+  7. 已经删除了 yolov2_graph.lite需在 android/app/src/main/assets/models/ 与 ios/models/添加yolov2_graph.lite文件。
   ```
