@@ -3,10 +3,7 @@ package com.thisisa;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
-import com.imagepicker.ImagePickerPackage;
 import com.reactlibrary.TfliteReactNativePackage;
-import com.rntensorflow.RNTensorFlowPackage;
-import fr.greweb.reactnativeviewshot.RNViewShotPackage;
 import org.reactnative.camera.RNCameraPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
@@ -28,10 +25,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
-            new ImagePickerPackage(),
             new TfliteReactNativePackage(),
-            new RNTensorFlowPackage(),
-            new RNViewShotPackage(),
             new RNCameraPackage()
       );
     }

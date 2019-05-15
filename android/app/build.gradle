@@ -60,10 +60,7 @@ android {
 }
 
 dependencies {
-    implementation project(':react-native-image-picker')
     implementation project(':tflite-react-native')
-    implementation project(':react-native-tensorflow')
-    implementation project(':react-native-view-shot')
     implementation project(':react-native-camera')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.android.support:appcompat-v7:${rootProject.ext.supportLibVersion}"

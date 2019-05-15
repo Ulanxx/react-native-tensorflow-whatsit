@@ -11,10 +11,6 @@
     "react": "16.8.3",
     "react-native": "0.59.4",
     "react-native-camera": "^2.5.0",
-    "react-native-core-ml-image": "0.0.6",
-    "react-native-image-picker": "^0.28.1",
-    "react-native-tensorflow": "^0.1.8",
-    "react-native-view-shot": "^2.5.0",
     "tflite-react-native": "0.0.4"
   },
   "devDependencies": {
